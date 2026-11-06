@@ -1,0 +1,14 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "ANSI"
+  },
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  }
+}

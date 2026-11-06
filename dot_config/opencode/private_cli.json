@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "name": "catppuccin"
+  },
+  "attention": {
+    "volume": 0.4
+  },
+  "terminal": {
+    "copy": "manual"
+  },
+  "session": {
+    "verbosity": "low",
+    "sidebar": "auto"
+  },
+  "plugins": [
+    {
+      "package": "opencode-cache-and-tps@latest",
+      "options": {
+        "enabled": true
+      }
+    }
+  ]
+}

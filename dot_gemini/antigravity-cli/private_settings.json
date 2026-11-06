@@ -1,0 +1,42 @@
+{
+  "agentMode": "accept-edits",
+  "artifactReviewPolicy": "agent-decides",
+  "colorScheme": "tokyo night",
+  "copyOnSelect": false,
+  "enableTerminalSandbox": true,
+  "model": "Claude Opus 4.6 (Thinking)",
+  "permissions": {
+    "allow": [
+      "command(git status)",
+      "command(git log)",
+      "command(git diff)",
+      "command(git reflog)",
+      "command(git branch)"
+    ]
+  },
+  "runningLightSpeed": "off",
+  "showFeedbackSurvey": false,
+  "showTips": false,
+  "trustedWorkspaces": [
+    "/home/yfhd/Documents/Github/soul-knight-replica",
+    "/home/yfhd/Downloads/Q3",
+    "/home/yfhd",
+    "/home/yfhd/Desktop/q3",
+    "/home/yfhd/Desktop/quartus",
+    "/home/yfhd/Desktop/lab8",
+    "/home/yfhd/Desktop/KnightSoul/Advertisement",
+    "/home/yfhd/Desktop/image-labeler",
+    "/home/yfhd/Desktop/acer-touchpad-poc",
+    "/home/yfhd/Desktop/ntut-sus",
+    "/home/yfhd/Desktop/ntut-csie",
+    "/home/yfhd/Desktop/scrpt",
+    "/home/yfhd/Documents/Github/Arch-Journey/script/touchpadctl",
+    "/home/yfhd/Documents/115-1/Compiler/hw02/mini-python",
+    "/home/yfhd/Desktop/S0ixSelftestTool-main",
+    "/home/yfhd/test_gemini",
+    "/home/yfhd/Desktop/db_phase02",
+    "/home/yfhd/Desktop/iot_ai_beam",
+    "/home/yfhd/Desktop/life_science"
+  ],
+  "verbosity": "low"
+}

@@ -1,0 +1,11 @@
+{
+  "custom/fanctl": {
+    "exec": "sleep 1 && sudo /home/yfhd/.local/bin/fanctl -r -f waybar",
+    "return-type": "json",
+    "format": "{}",
+    "on-click": "sudo /home/yfhd/.local/bin/fanctl -t && pkill -RTMIN+10 waybar",
+    "min-length": 1,
+    "max-length": 1,
+    "signal": 10,
+  },
+}

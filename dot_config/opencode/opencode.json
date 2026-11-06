@@ -1,0 +1,59 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [],
+  "agent": {
+    "chat": {
+      "mode": "primary",
+      "description": "Pure chat mode: no tool calls and no bulky system prompt.",
+      "prompt": "You are a helpful assistant.",
+      "permission": {
+        "*": "deny"
+      }
+    }
+  },
+  "mcp": {
+    "pdf-mcp": {
+      "type": "local",
+      // Or ["bun", "x", "my-mcp-command"]
+      "command": ["uvx", "pdf-mcp"],
+      "enabled": false
+    },
+    "drawio-mcp": {
+      "type": "local",
+      "command": ["npx", "@drawio/mcp"],
+      "enabled": false
+    },
+    "docx-mcp": {
+      "type": "local",
+      "command": ["npx", "-y", "@knorq/docx-mcp-server"],
+      "enabled": false
+    },
+    "ppt-mcp": {
+      "type": "local",
+      "command": [
+        "uvx",
+        "--from",
+        "office-powerpoint-mcp-server",
+        "--with",
+        "mcp<2",
+        "ppt_mcp_server"
+      ],
+      "enabled": false
+    },
+    "ntut-mcp": {
+      "type": "local",
+      "command": [
+        "uv",
+        "--directory",
+        "/home/yfhd/Desktop/istudty_mcp",
+        "run",
+        "ntut-mcp"
+      ],
+      "enabled": false,
+      "environment": {
+        "NTUT_CDP_URL": "http://127.0.0.1:9222",
+        "NTUT_SEMESTER": "latest"
+      }
+    }
+  }
+}

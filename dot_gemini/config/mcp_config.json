@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "anymd-mcp": {
+      "args": [
+        "-y",
+        "@sylphx/anymd"
+      ],
+      "command": "npx",
+      "disabled": true,
+      "enabled": false
+    },
+    "docx-mcp": {
+      "args": [
+        "-y",
+        "@knorq/docx-mcp-server"
+      ],
+      "command": "npx",
+      "disabled": true,
+      "enabled": false
+    },
+    "drawio-mcp": {
+      "args": [
+        "@drawio/mcp"
+      ],
+      "command": "npx",
+      "disabled": true,
+      "enabled": false
+    },
+    "ppt-mcp": {
+      "args": [
+        "--from",
+        "office-powerpoint-mcp-server",
+        "--with",
+        "mcp\u003c2",
+        "ppt_mcp_server"
+      ],
+      "command": "uvx",
+      "disabled": true,
+      "enabled": false
+    }
+  }
+}
