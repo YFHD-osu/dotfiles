@@ -1,4 +1,18 @@
 {
+  "ide": {
+    "enabled": true,
+    "hasSeenNudge": true
+  },
+  "mcpServers": {
+    "anymd": {
+      "args": [
+        "-y",
+        "@sylphx/anymd",
+        "mcp"
+      ],
+      "command": "npx"
+    }
+  },
   "security": {
     "auth": {
       "selectedType": "oauth-personal"
@@ -6,9 +20,5 @@
   },
   "ui": {
     "theme": "ANSI"
-  },
-  "ide": {
-    "hasSeenNudge": true,
-    "enabled": true
   }
 }

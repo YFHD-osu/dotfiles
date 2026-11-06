@@ -1,10 +1,10 @@
 {
-  "agentMode": "accept-edits",
+  "agentMode": "auto",
+  "allowNonWorkspaceAccess": true,
   "artifactReviewPolicy": "agent-decides",
   "colorScheme": "tokyo night",
   "copyOnSelect": false,
-  "enableTerminalSandbox": true,
-  "model": "Claude Opus 4.6 (Thinking)",
+  "model": "Gemini 3.8 Flash (High)",
   "permissions": {
     "allow": [
       "command(git status)",
@@ -36,7 +36,9 @@
     "/home/yfhd/test_gemini",
     "/home/yfhd/Desktop/db_phase02",
     "/home/yfhd/Desktop/iot_ai_beam",
-    "/home/yfhd/Desktop/life_science"
+    "/home/yfhd/Desktop/life_science",
+    "/home/yfhd/Desktop/hyprland_migration",
+    "/home/yfhd/.config/waybar"
   ],
   "verbosity": "low"
 }
