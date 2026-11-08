@@ -19,7 +19,7 @@
     },
     "drawio-mcp": {
       "type": "local",
-      "command": ["npx", "@drawio/mcp"],
+      "command": ["npx", "-y", "@drawio/mcp"],
       "enabled": false
     },
     "docx-mcp": {

@@ -11,7 +11,9 @@
       "command(git log)",
       "command(git diff)",
       "command(git reflog)",
-      "command(git branch)"
+      "command(git branch)",
+      "write_file(*)",
+      "command(cd C:\\Users\\YFHD\\Desktop\\personal-image-hub; pnpm typecheck; pnpm test)"
     ]
   },
   "runningLightSpeed": "off",
@@ -38,7 +40,12 @@
     "/home/yfhd/Desktop/iot_ai_beam",
     "/home/yfhd/Desktop/life_science",
     "/home/yfhd/Desktop/hyprland_migration",
-    "/home/yfhd/.config/waybar"
+    "/home/yfhd/.config/waybar",
+    "C:\\Users\\YFHD\\Desktop\\personal-image-hub",
+    "C:\\Users\\YFHD"
   ],
-  "verbosity": "low"
+  "verbosity": "low",
+  "voice": {
+    "voiceMode": "dictation"
+  }
 }
