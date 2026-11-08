@@ -5,12 +5,34 @@
   },
   "mcpServers": {
     "anymd": {
+      "command": "npx",
       "args": [
         "-y",
         "@sylphx/anymd",
         "mcp"
-      ],
-      "command": "npx"
+      ]
+    },
+    "pdf-mcp": {
+      "command": "uvx",
+      "args": ["pdf-mcp"]
+    },
+    "drawio-mcp": {
+      "command": "npx",
+      "args": ["-y", "@drawio/mcp"]
+    },
+    "docx-mcp": {
+      "command": "npx",
+      "args": ["-y", "@knorq/docx-mcp-server"]
+    },
+    "ppt-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "office-powerpoint-mcp-server",
+        "--with",
+        "mcp<2",
+        "ppt_mcp_server"
+      ]
     }
   },
   "security": {

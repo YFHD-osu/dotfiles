@@ -4,7 +4,7 @@
   "artifactReviewPolicy": "agent-decides",
   "colorScheme": "tokyo night",
   "copyOnSelect": false,
-  "model": "Gemini 3.8 Flash (High)",
+  "model": "Gemini 3.8 Flash (Medium)",
   "permissions": {
     "allow": [
       "command(git status)",
