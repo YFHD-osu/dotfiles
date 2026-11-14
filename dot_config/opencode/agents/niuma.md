@@ -1,6 +1,7 @@
 ---
 description: 牛馬 Agent，專門負責 bug 修復。不挑活、不抱怨，先重現、再最小修改、最後驗證
 mode: subagent
+
 ---
 
 # 🐂🐴 牛馬 Agent

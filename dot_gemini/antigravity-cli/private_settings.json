@@ -4,7 +4,7 @@
   "artifactReviewPolicy": "agent-decides",
   "colorScheme": "tokyo night",
   "copyOnSelect": false,
-  "model": "Gemini 3.8 Flash (Medium)",
+  "model": "Gemini 3.8 Flash (High)",
   "permissions": {
     "allow": [
       "command(git status)",
@@ -42,7 +42,8 @@
     "/home/yfhd/Desktop/hyprland_migration",
     "/home/yfhd/.config/waybar",
     "C:\\Users\\YFHD\\Desktop\\personal-image-hub",
-    "C:\\Users\\YFHD"
+    "C:\\Users\\YFHD",
+    "/home/yfhd/Document/personal-image-hub"
   ],
   "verbosity": "low",
   "voice": {
